@@ -34,5 +34,5 @@ https://fakerestapi.azurewebsites.net/index.html
 
 ## 👨‍💻 Author
 
-Tanvir Ahmed
+Tanvir Ahmed,
 Aspiring Junior SQA Engineer
