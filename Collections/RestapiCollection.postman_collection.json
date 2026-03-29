@@ -1,0 +1,95 @@
+{
+  "info": {
+    "_postman_id": "1cd7d9b1-4310-4ad8-9b93-72db3ec6028c",
+    "name": "RestapiCollection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53448593",
+    "_collection_link": "https://go.postman.co/collection/53448593-1cd7d9b1-4310-4ad8-9b93-72db3ec6028c?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "POST Request",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n\t\"username\": \"admin\",\r\n\t\"password\": \"password\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://automationintesting.online/api/auth/login",
+          "protocol": "https",
+          "host": [
+            "automationintesting",
+            "online"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PUT Request",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"None\",\r\n    \"dueDate\": \"2026-03-29T07:27:59.9278421+00:00\",\r\n    \"completed\": true\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://fakerestapi.azurewebsites.net/api/v1/Activities/1",
+          "protocol": "https",
+          "host": [
+            "fakerestapi",
+            "azurewebsites",
+            "net"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "Activities",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ]
+}
